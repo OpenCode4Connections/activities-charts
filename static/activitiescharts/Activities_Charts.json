@@ -1,0 +1,21 @@
+{
+  "extensions": [
+    {
+      "path": "activities",
+      "application": "Activities Charts",
+      "payload": {
+        "include-files": [
+          "activitiescharts/activitiescharts.js"
+        ]
+      },
+      "name": "Activities Charts",
+      "type": "com.ibm.customizer.ui"
+    }
+  ],
+  "name": "Activities Charts",
+  "description": "Inserts gantt chart into Activities",
+  "services": [
+    "Customizer"
+  ],
+  "title": "Activities Charts"
+}
