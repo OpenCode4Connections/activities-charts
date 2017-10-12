@@ -12,7 +12,7 @@
 This Customizer application adds an element in the left navigation on the activity page. Selecting `Gantt Chart` in navigation creates a widget, which contains URL to external Gantt Charts application.
 Gantt Chart is an application uses OAuth 2.0 to communicate with IBM Connection Cloud and convert data from current activity to chart. Custom date field called `Start date` is being used to generate the start date on the timeline.
 
-Gantt Chart cloud version is based on [Gantt Charts](https://solutions.computerplus.com.pl/en/gantt-charts) on-premise version and doesn't have all functionalities yet.
+Gantt Chart cloud edition is based on [Gantt Charts](https://solutions.computerplus.com.pl/en/gantt-charts) on-premise and doesn't have all functionalities yet.
 
 ## Screenshots
 
