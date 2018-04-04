@@ -14,7 +14,7 @@
  * permissions and limitations under the License.
  */
 // @name         activitiesCharts
-// @version      0.1
+// @version      0.1.1
 // @author       T-Matic Grupa Computerplus Sp. z o.o.
 
 if (typeof(dojo) != "undefined") {
@@ -43,6 +43,20 @@ Gantt = {
 			pageName: '/activitygantt.xhtml',
 			iframename: 'iframegantt'
 
+		},
+		"hr": {
+			id: 1,
+			liId: 'hrli',
+			navPositionHref: '#activitypage_hr,',
+			navPanelId: 'actNavPanel',
+			label: "activityGanttHeader",
+			position: 3,
+			urlKey: 'hr',
+			mainContentDivId: 'activitypage',
+			chartDivId: 'lotusContentGantt',
+			pageName: '/activityhr.xhtml',
+			iframename: 'iframegantt'
+
 		}
 	},
 	labels: ["Gantt Chart", "Human Resources", "My To Do Chart",
@@ -59,6 +73,8 @@ function work() {
 			// Navigation
 			addNavPosition("gantt", activityId);
 			addIFrame(["gantt"], activityUrl, activityId);
+			addNavPosition("hr", activityId);
+			addIFrame(["hr"], activityUrl, activityId);
 		});
 		router.startup();
 	});
