@@ -14,7 +14,7 @@
  * permissions and limitations under the License.
  */
 // @name         activitiesCharts
-// @version      0.1
+// @version      0.1.1
 // @author       T-Matic Grupa Computerplus Sp. z o.o.
 
 if (typeof(dojo) != "undefined") {
